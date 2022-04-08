@@ -1,0 +1,837 @@
+html {
+    scroll-behavior: smooth;
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    text-align: center;
+    background-color: rgb(34, 34, 34);
+}
+
+section {
+    min-height: 100%;
+}
+
+li {
+    list-style-type: none;
+}
+
+a, p , li {
+    font-family: 'MuseoModerno', serif;
+    font-weight: 400;
+    text-decoration: none;
+    color: white;
+}
+    
+h1, h3 {
+    font-family: 'MuseoModerno', serif;
+    font-weight: 500;
+    color: white;
+    text-transform: uppercase;
+}
+    
+h2 {
+    color: white;
+    font-family: 'Ubuntu', serif;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+    
+h3 {
+    padding-top: 8%;
+    margin-bottom: 5px;
+    margin: 0;
+}
+
+h4 {
+    font-family: 'MuseoModerno', serif;
+    text-transform: uppercase;
+    color: white;
+    font-weight: 500;
+}
+
+label {
+    font-family: 'MuseoModerno', serif;
+    text-transform: uppercase;
+    color: white;
+    font-weight: 500;
+}
+    
+hr {
+    width: 7.5%;
+    height: 3px;
+    background: white;
+    border: 0;
+    margin: 0 auto 40px auto;
+}
+
+#ghcard, .close, #stat2, .text, .projectbtn, .projectelement, .pn-bars, .fa-bars, li, img, .button {
+    transition: all 0.35s;
+    -webkit-transition: all 0.35s;
+    -moz-transition: all 0.35s;
+    -o-transition: all 0.35s;
+}
+
+.mobile {
+    display: none;
+}
+
+/* Header */
+header {
+    width: 100%;
+    height: 65px;
+    position: fixed; top: 0; left: 0;
+    background: rgb(64, 64, 64);
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.5);
+    z-index: 1;
+}
+
+header #pagenav {
+    padding: 0;
+    margin: 5px 10px 0 0px;
+    float: right;
+    width: 400px;
+    vertical-align: top;
+}
+
+header #pagenav ul li {
+    width: 20%;
+    font-size: 16px;
+    margin-left: 16px;
+    background-color: transparent;
+    float: left;
+}
+
+header #pagenav ul li:hover {
+    padding-top: 5px;
+}
+
+/* nav */
+
+.fa-bars {
+    width: 25px;
+    cursor: pointer;
+    text-align: left;
+    float: left;
+    margin: 20px 0 0 30px;
+    }
+    
+.fa-bars:hover {
+    opacity: 0.5;
+    transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    -o-transform: scale(1.1);
+}
+    
+header nav ul {
+    height: 0;
+    overflow: hidden;
+    margin: 10px 0;
+    padding: 0;
+    width: 100%;
+    float: left;
+}
+    
+header nav ul.show {
+    height: auto;
+}
+    
+header nav ul li {
+    width: 20%;
+    margin: 20px auto 0 10px;
+    font-size: 11px;
+    border: 1px solid #dddddd;
+    background-color: rgb(64, 64, 64);
+    border-radius: 3px;
+}
+    
+header nav ul li:hover {
+    background-color: #bbbbbb;
+}
+
+.navcontainer {
+    padding: 10px 0;
+}
+ 
+/* Ende**/
+
+/*Modal*/
+ /* The Modal (background) */
+ .modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    color: #3f3f3f;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+  }
+
+  /* Modal Header */
+.modal-header {
+    padding: 2px 16px;
+    background-color: #5cb85c;
+    color: white;
+    border-radius: 5px;
+  }
+  
+  /* Modal Body */
+  .modal-body {
+      padding: 2px 16px;
+      min-height: 150px;
+}
+  
+  /* Modal Footer 
+  .modal-footer {
+    padding: 2px 16px;
+    background-color: #5cb85c;
+    color: white;
+  }*/
+
+  #mimg {
+      width: 100%;
+      height: auto;
+  }
+  
+  /* Modal Content/Box */
+  .modal-content {
+    position: relative;
+    background-color: rgb(75, 75, 75);
+    margin: 150px auto 0 auto;
+    padding: 0;
+    border: 1px solid #888;
+    border-radius: 5px;
+    width: 80%; /* Could be more or less, depending on screen size */
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
+    animation-name: animatetop;
+    animation-duration: 0.4s
+}
+
+/* Add Animation */
+@keyframes animatetop {
+    from {top: -300px; opacity: 0}
+    to {top: 0; opacity: 1}
+  }
+  
+  /* The Close Button */
+  .close {
+    color: white;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+    top: 5px;
+  }
+  
+  .close:hover,
+  .close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+  } 
+
+/* Home *******************/
+
+#home {
+    background: url(img/code2.png);
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+    
+#home, h1 {
+    margin: 20% auto 0 auto;
+    font-size: clamp(1rem, 10vw, 12rem);
+}
+    
+#home, h2 {
+    margin: 0 auto 0 auto;
+    font-size: clamp(0.5rem, 3vw, 8rem);
+    
+}
+
+#arrow {
+    margin: auto auto auto -5%;
+}
+
+#arrow img{
+    width: 48px;
+    height: 48px;
+    position: absolute;
+    bottom: 20px;
+    animation: bounce 450ms infinite alternate;
+}
+
+@keyframes bounce {
+    from {
+        transform: translate(0, 0);
+    }
+    to {
+        transform: translate(0, -8px);
+    }
+}
+
+/* About */
+#about h3 {
+    font-size: clamp(0.4rem, 2vw, 7rem);
+}
+
+#aboutcontainer {
+    width: 90%;
+    float: left;
+    margin: 0 0 0 4%;
+    text-align: center;
+}
+
+.text {
+    float: left;
+    width: 48%;
+    border: 3px solid white;
+    border-radius: 5px;
+    box-shadow: 0 7px 7px rgba(0, 0, 0, 0.3);
+}
+
+.text:hover {
+    box-shadow: 0 15px 15px rgba(0, 0, 0, 0.5);
+    transform: scale(1.05);
+    -webkit-transform: scale(1.05);
+    -moz-transform: scale(1.05);
+    -o-transform: scale(1.05);
+}
+
+.stats {
+    float: right;
+    width: 48%;
+    margin: 0 0 20px 0;
+}
+
+#stat1 {
+    height: 50%;
+    margin: 0 0 0 0%;
+    padding: 10px 0 10px 15px;
+    border: 3px solid white;
+    border-radius: 5px;
+    box-shadow: 0 7px 7px rgba(0, 0, 0, 0.3);
+    width: 100%;
+}
+
+#stat1:hover {
+    box-shadow: 0 15px 15px rgba(0, 0, 0, 0.5);
+    transform: scale(1.05);
+    -webkit-transform: scale(1.05);
+    -moz-transform: scale(1.05);
+    -o-transform: scale(1.05);
+}
+
+#stat2 {
+    height: 50%;
+    margin: 0 0 20px 0;
+    padding: 10px 0 20px 15px;
+    border: 3px solid white;
+    border-radius: 5px;
+    box-shadow: 0 7px 7px rgba(0, 0, 0, 0.3);
+    width: 100%;
+}
+
+#stat2:hover {
+    box-shadow: 0 15px 15px rgba(0, 0, 0, 0.5);
+    transform: scale(1.05);
+    -webkit-transform: scale(1.05);
+    -moz-transform: scale(1.05);
+    -o-transform: scale(1.05);
+}
+
+#stat2 li {
+    padding: 0 10px;
+    font-family: 'Ubuntu', serif;
+    font-size: clamp(0.25rem, 1.6vw, 1.5rem);
+    line-height: 30px;
+    text-align: left;
+}
+
+.text h4, #stat2 h4 {
+    font-size: clamp(0.3rem, 1.85vw, 6rem);
+    text-decoration: underline;
+}
+
+.text p {
+    padding: 0 20px;
+    font-family: 'Ubuntu', serif;
+    font-size: clamp(0.4rem, 1.8vw, 5rem);
+    line-height: 25px;
+    margin: 0 0 42px 0;
+}
+
+/* Projects */
+#projects {
+    background: url(img/code3.png);
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
+    height: auto;
+}
+
+#projects h3 {
+    font-size: clamp(0.4rem, 2vw, 7rem);
+}
+
+#list {
+    float: left;
+}
+
+#list ul li {
+    height: auto;
+    width: clamp(15rem, 43vw, 80rem);
+    margin: 0 10px 15px 0;
+    float: left;
+    border: 3px solid white;
+    border-radius: 5px;
+    background-color: rgba(255, 255, 255, 0.65);
+}
+
+#list ul {
+    float: left;
+}
+
+.projectbtn {
+    width: clamp(7rem, 12vw, 15rem);
+    height: 30px;
+    border-radius: 5px;
+    background-color: rgba(255, 255, 255, 0.6);
+    color: rgb(195, 195, 195);
+    font-weight: bolder;
+    font-size: clamp(0.8rem, 1.4vw, 1.5rem);
+    margin: 4% 0 3% 0;
+}
+
+.projectbtn:hover {
+    background-color: rgba(128, 128, 128, 0.8);
+    transform: scale(1.075);
+    -webkit-transform: scale(1.075);
+    -moz-transform: scale(1.075);
+    -o-transform: scale(1.075);
+}
+
+.projectelement {
+    float: left;
+}
+
+#list ul li:hover {
+    transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    -o-transform: scale(1.1);
+    box-shadow: 0 5px 5px rgba(0, 0, 0, 0.3);
+}
+
+.projectelement img {
+    float: left;
+    width: 50%;
+    padding: 0 0 0 1px;
+    border-radius: 3px;
+}
+
+.projectelement p {
+    float: right;
+    word-wrap: break-word;
+    width: 45%;
+    color: rgb(82, 82, 82);
+    font-size: clamp(0.2rem, 1.5vw, 6rem);
+    text-align: left;
+    padding: 5px 5px 0 5px;
+    line-height: 18px;
+}
+
+.projectelement label {
+    width: clamp(15rem, 43vw, 80rem);
+    background-color: aquamarine;
+    float: left;
+    color: #494949;
+    align-self: center;
+    border-radius: 3px;
+}
+
+/* Contact */
+#contact {
+    min-height: 75%;
+}
+
+#contact h3 {
+    font-size: clamp(0.4rem, 2vw, 7rem);
+}
+
+#contactcontainer {
+    width: 800px;
+    margin: auto;
+    vertical-align: middle;
+}
+
+#contactcontainer h4 {
+    text-decoration: underline;
+    font-size: clamp(0.3rem, 1.85vw, 6rem);
+}
+
+#dc {
+    width: 48%;
+    float: left;
+    margin-top: 10px;
+}
+
+.label_c {
+    background-color: aquamarine;
+    border-radius: 3px;
+    color: #3f3f3f;
+    padding: 5px 5px;
+    margin: 0 5px;
+    font-family: 'Ubuntu', serif;
+    font-weight: 600;
+    float: none;
+}
+
+.dcimg {
+    border: 3px solid white;
+    border-radius: 5px;
+    margin-top: 20px;
+    float: none;
+}
+
+.dcimg:hover {
+    box-shadow: 0 15px 15px rgba(0, 0, 0, 0.5);
+    transform: scale(1.05);
+    -webkit-transform: scale(1.05);
+    -moz-transform: scale(1.05);
+    -o-transform: scale(1.05);
+}
+
+.border {
+    height: 225px;
+    width: 0px;
+    border: 1px solid white;
+    float: left;
+    border-radius: 5px;
+}
+
+#github {
+    width: 48%;
+    float: right;
+}
+
+#ghcard {
+    width: 326px;
+    border: 3px solid white;
+    border-radius: 5px;
+    background-color: #111827;
+    height: 146px;
+    margin-top: 20px;
+}
+
+#ghcard:hover {
+    box-shadow: 0 15px 15px rgba(0, 0, 0, 0.5);
+    transform: scale(1.05);
+    -webkit-transform: scale(1.05);
+    -moz-transform: scale(1.05);
+    -o-transform: scale(1.05);
+}
+
+#ghimg {
+    float: left;
+    width: 46%;
+    margin-top: 18px;
+}
+
+#ghimg img {
+    width: 72px;
+    height: 72px;
+    border-radius: 50px;
+    border: 2px solid #494949;
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.4);
+    margin-left: 30px;
+    float: left;
+}
+
+#ghstats {
+    float: right;
+    width: 48%;
+    padding: 5px 10px 5px 5px;
+}
+
+#statscontent {
+    margin: auto;
+    float: right;
+}
+
+#statscontent img {
+    float: right;
+    margin: 0 25px 8px auto;
+    border-radius: 5px;
+    height: 25px;
+}
+
+#statscontent h4 {
+    margin: 0 0 9px 0;
+    float: left;
+    font-size: 16px;
+    font-family: 'Ubuntu', serif;
+}
+
+#ghfooter {
+    height: 36px;
+    padding: 4px 0;
+    width: 100%;
+    float: left;
+    bottom: 1px;
+    position: relative;
+    background-color: #3f3f3f;
+    border-radius: 3px;
+}
+
+#ghsymbol {
+    float: left;
+    width: 47%;
+}
+
+#ghsymbol img {
+    width: 32px;
+    height: 32px;
+    margin-top: 4px;
+    float: left;
+    margin-left: 5px;
+}
+
+#ghsymbol label {
+    font-family: 'Ubuntu', serif;
+    color: white;
+    margin-top: 8px;
+    margin-left: 5px;
+    float: left;
+    text-transform: none;
+}
+
+#ghlabel {
+    float: right;
+    width: 47%;
+
+}
+
+#ghlabel p {
+    font-family: Arial, serif;
+    font-size: 12px;
+    text-transform: uppercase;
+    float: right;
+    margin-right: 15px;
+}
+
+/* footer */
+footer {
+    width: 100%;
+    height: 60px;
+    background-color: #3f3f3f;
+}
+    
+footer p{
+    font-size: 14px;
+    color: white;
+    padding-top: 25px;
+}
+
+footer p a{
+    font-size: 14px;
+    color: white;
+    padding-top: 25px;
+}
+
+/* Media */
+
+/* Tablets */
+@media screen and (max-width: 1024px) {
+    header {
+        height: 50px;
+    }
+
+    .fa-bars {
+        margin-top: 12px;
+    }
+
+    header #pagenav {
+        margin: 0 10px 13px 0;
+        height: auto;
+    }
+
+    header #pagenav ul li {
+        font-size: 12px;
+    }
+
+    
+    /*projects*/
+    #list ul {
+        float: left;
+        width: 66%;
+        padding-left: 17%;
+        text-align: center;
+    }
+
+    #list ul li {
+        float: left;
+        width: 100%;
+    }
+
+
+    .projectelement p {
+        font-size: clamp(0.5rem, 2vw, 6rem);
+        width: 45%;
+        padding: 3px 1px 0 2px;
+        line-height: clamp(0.5rem, 3vw, 6rem);
+        
+    }
+
+    .projectelement label {
+        width: 100%;
+    }
+
+    /*contact*/
+
+    #contactcontainer {
+        width: 325px;
+        margin: auto;
+        float: none;
+    }
+
+    #contactcontainer h4 {
+        font-size: 16px;
+    }
+    
+    #dc {
+        width: 100%;
+        float: none;
+        margin-top: 10px;
+    }
+    
+    .border {
+        height: 0px;
+        width: 285px;
+        border: 1px solid white;
+        float: left;
+        margin: 10px 20px 20px 20px;
+    }
+    
+    #github {
+        width: 100%;
+        float: none;
+    }
+
+}
+
+/* Mobile */
+@media screen and (max-width: 480px) {
+    /*header*/
+    #pagenav ul {
+        height: 0;
+        overflow: hidden;
+        margin: 0;
+        padding: 0;
+        width: 100%;
+    }
+
+    .mobile {
+        display: block;
+    }
+
+    #mainnav {
+        margin: 0;
+        float: none;
+    }
+
+    .fa-bars {
+        font-size: 17px;
+        cursor: pointer;
+        text-align: right;
+        float: left;
+        margin: 10px 0 8px 10px;
+    }
+
+    #mainnav ul {
+        height: 0;
+        overflow: hidden;
+        margin: 10px 0;
+        padding: 0;
+        width: 100%;
+    }
+
+    #mainnav ul.show {
+        height: auto;
+    }
+
+
+    header nav ul li {
+        width: 100%;
+        padding: 0px 0;
+        margin: 0;
+        font-size: 11px;
+        border-top: 1px solid #dddddd;
+        border-radius: 0px;
+    }
+
+    /*home*/
+
+    /*about*/
+
+    #aboutcontainer {
+    float: none;
+    text-align: center;
+    margin: 0 0 0 17%;
+    width: 66%;
+    }
+
+    .text {
+    float: none;
+    width: 100%;
+    }
+
+    .text p {
+        font-size: 9px;
+        line-height: 15px;
+    }
+
+    .stats {
+        float: none;
+        width: 94%;
+        margin: 10px 0 0 0;
+    }
+
+    /*projects*/
+    #list ul {
+        float: none;
+        width: 66%;
+        padding-left: 17%;
+    }
+
+    #list ul li {
+        float: none;
+        margin-left: 0;
+        width: 100%;
+        height: 110px;
+    }
+
+    .projectelement p {
+        font-size: clamp(0.5rem, 1.5vw, 6rem);
+        width: 45%;
+        padding: 3px 1px 0 2px;
+        line-height: 10px;
+        
+    }
+    
+    .projectelement label {
+        width: 100%;
+    }
+
+    /*contact*/
+
+    /*footer*/
+
+}
