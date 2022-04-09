@@ -368,6 +368,14 @@ header nav ul li:hover {
     margin: 0 0 42px 0;
 }
 
+.btn1 {
+    height: 1px; 
+    width: 100px;
+    margin: 20px 0 0 0;
+    background-color: transparent;
+    border: 0px solid transparent;
+}
+
 /* Projects */
 #projects {
     background: url(img/code3.png);
