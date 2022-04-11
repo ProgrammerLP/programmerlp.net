@@ -350,7 +350,8 @@ header nav ul li:hover {
 }
 
 #stat2 ul {
-    margin: 0 10px 20px 5px;
+    margin: 0 10px 20px 0;
+    padding-left: 20px;
 }
 
 #stat2 ul li {
