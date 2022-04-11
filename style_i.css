@@ -314,8 +314,8 @@ header nav ul li:hover {
 #stat1 {
     height: 50%;
     margin: 0 0 0 0%;
-    border: 3px solid white;
-    border-radius: 10px;
+    border: 2px solid white;
+    border-radius: 12px;
     box-shadow: 0 7px 7px rgba(0, 0, 0, 0.3);
     width: 100%;
 }
