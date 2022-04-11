@@ -345,7 +345,15 @@ header nav ul li:hover {
     -o-transform: scale(1.05);
 }
 
-#stat2 li {
+#stat2 h4 {
+    margin: 20px 0 10px 0;
+}
+
+#stat2 ul {
+    margin: 0 5px 10px 20px;
+}
+
+#stat2 ul li {
     padding: 0 10px;
     font-family: 'Ubuntu', serif;
     font-size: clamp(0.25rem, 1.6vw, 1.5rem);
