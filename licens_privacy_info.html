@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+	    <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Licenses & Privacy | PLP</title>
+    
+        <link rel="icon" type="image/png" href="https://avatars.githubusercontent.com/u/101939228?v=4" alt="profile_picture">
+        <link rel="stylesheet" type="text/css" href="style_lp.css">
+    
+        <link href="https://fonts.googleapis.com/css2?family=Ubuntu&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=MuseoModerno:wght@500&display=swap" rel="stylesheet">
+    </head>
+
+    <body>
+
+        <!-- Header -->
+        <header>
+            <div id="headcontainer">
+
+                <div id="pagenav">
+                    <ul>
+                        <li><a href="#privacy">Privacy</a></li>
+                        <li><a href="#licens">Licens</a></li>
+                    </ul>
+                </div>
+                
+                <nav id="mainnav" width="auto">
+                    <img onclick="toggleMenu()" class="fa-bars" src="img/menu.png" width="25px" height="25px" alt="Navigation">
+                    <ul id="dropdown" class="dropdown">
+                        <li class="mobile"><a href="#licens"><div class="navcontainer">Licens</div></a></li>
+                        <li class="mobile"><a href="#privacy"><div class="navcontainer">Privacy</div></a></li>
+                        <li><a href="/index.html"><div class="navcontainer">Startseite</div></a></li>
+                    </ul>
+                </nav>
+
+            </div>
+        </header>
+
+        <!--Modal-->
+        <div id="MainModal" class="modal">
+
+            <div class="modal-content">
+                <div class="modal-header">
+                  <span class="close">&times;</span>
+                  <h2 id="headerh2">Modal Header</h2>
+                </div>
+                <div class="modal-body">
+                    <img id="mimg" style="display: none;">
+                  <p id="mainp">Some text in the Modal Body</p>
+                </div>
+                <!--<div class="modal-footer">
+                  <h3>Modal Footer</h3>
+                </div>-->
+              </div>
+          
+          </div>
+
+        <!--Home-->
+        <section id="licens">
+            <hr>
+            <h1>Licens & Privacy</h1> 
+            <h3>Licens</h3>
+            <hr>
+
+            <<iframe src="non_open-Source_Licens.txt" class="frame" ></iframe>
+        </section>
+
+        <!--about-->
+        <section id="privacy">
+            <h3>Privacy</h3>
+            <hr>
+
+            <p>Es werden keinerlei Daten von Nutzern und Nutzerinnen an irgendjemanden weitergeleitet, abgefragt, verwendet oder sonst was. Alle Daten sind und bleiben lokal auf Ihrem PC gespeichert!</p>
+
+        </section>
+
+        <!-- footer -->
+        <footer>
+            <p><a href="#home">&copy; ProgrammerLP</a></p>
+        </footer>
+        
+        <script src="Main.js"></script>
+    </body>
+</html>
