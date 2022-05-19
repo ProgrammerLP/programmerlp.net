@@ -1,3 +1,5 @@
+document.getElementById("lf").contentDocument.body.style.color = "white";
+
 function toggleMenu() {
     document.getElementById("dropdown").classList.toggle("show");
 }
