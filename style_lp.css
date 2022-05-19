@@ -260,6 +260,7 @@ header nav ul li:hover {
     width: 80%;
     height: 375px;
     background-color: black;
+    color: white;
 }
 
 /* Privacy */
