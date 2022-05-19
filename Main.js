@@ -1,4 +1,7 @@
-document.getElementById("lf").contentDocument.body.style.color = "white";
+var frame = document.getElementById('lf');
+    frame.onload = function () {
+        var body = frame.contentWindow.document.querySelector('body');
+        body.style.color = 'white';
 
 function toggleMenu() {
     document.getElementById("dropdown").classList.toggle("show");
