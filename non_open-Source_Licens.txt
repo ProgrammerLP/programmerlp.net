@@ -1,24 +1,24 @@
-    Lizenz für nicht Open-Source Software von ProgrammerLP
+    License for non-open source software by ProgrammerLP
 
-    1.) Mit dem Nutzen der Anwendung stimmen Sie automatisch der Lizenz zu. Die Lizenz gilt so lange, wie Sie die
-        Anwendung auf Ihrem PC haben. Sobald Sie das Programm löschen oder deinstallieren, wird die Lizenz ungültig.
-        Beim erneuten Runterladen trifft dasselbe wie hier beschrieben wieder ein.
+    1) By using the application you automatically agree to the license. The license is valid as long as you have the
+        application on your PC. As soon as you delete or uninstall the program, the license becomes invalid.
+        When you download the application again, the same applies as described here.
     
-    2.) Nicht berechtigtes Kopieren, Dekompilieren, Bearbeitung, Verleih, Weiterverkauf, Verbreitung oder Entfremdung
-        der Anwendung oder eines Markenzeichens, das Teil der Anwendung ist, sind strikt verboten. Die Nutzung der
-        Anwendung ist nur für private Zwecke lizenziert und darf in keiner Weise kommerziell verwendet werden.
+    2) Unauthorized copying, decompiling, editing, lending, reselling, distributing or alienating
+        of the application or any trademark that is part of the application are strictly prohibited. The use of the
+        Application is licensed for private use only and may not be used commercially in any way.
     
-    3.) Bei öffentlicher Aufführung muss der Copyrightinhaber erwähnt werden, in dem Falle - ProgrammerLP, zudem muss
-        eine Verlinkung zur offiziellen Downloadseite angegeben sein.
+    3) In case of public performance, the copyright owner must be mentioned, in the case ©-ProgrammerLP, furthermore there must be
+        a link to the official download page must be given.
     
     
-    Treten Sie auch gerne meinem Discord Server bei, um immer die neuesten Informationen zu erhalten. Ein Link befindet
-    sich auf der Startseite unter Contact: https://programmerlp-net.vercel.app/index.html#contact
+    Also feel free to join my Discord server to get the latest information. A link can be found
+    on the start page under Contact: https://programmerlp-net.vercel.app/index.html#contact
     
-    Bei Problemen (z.B. Programmfehler) melden Sie sich bitte bei mir, entweder über den angesprochenen Discord Server
-    oder per E-Mail an: developer.programmerlp@gmx.net
+    In case of problems (e.g. program errors) please contact me, either via the mentioned Discord server
+    or by e-mail to: developer.programmerlp@gmx.net
     
-    Gültig seit: 18.05.2022
-    Letzte Änderung: 18.05.2022
+    Valid since: 18.05.2022
+    Last change: 18.05.2022
     
     ProgrammerLP
