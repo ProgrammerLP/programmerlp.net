@@ -1,7 +1,7 @@
     Lizenz für nicht Open-Source Software von ProgrammerLP
 
-    1.) Mit dem Nutzen der Anwendung stimmen Sie automatisch der Lizenz zu. Die Lizenz gilt so lange, wie Sie die Anwendung auf Ihrem PC haben. 
-        Sobald Sie das Programm löschen oder deinstallieren, wird die Lizenz ungültig.
+    1.) Mit dem Nutzen der Anwendung stimmen Sie automatisch der Lizenz zu. Die Lizenz gilt so lange, wie Sie die
+        Anwendung auf Ihrem PC haben. Sobald Sie das Programm löschen oder deinstallieren, wird die Lizenz ungültig.
         Beim erneuten Runterladen trifft dasselbe wie hier beschrieben wieder ein.
     
     2.) Nicht berechtigtes Kopieren, Dekompilieren, Bearbeitung, Verleih, Weiterverkauf, Verbreitung oder Entfremdung
