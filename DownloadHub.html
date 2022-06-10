@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+	    <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Hub | PLP</title>
+    
+        <link rel="icon" type="image/png" href="https://avatars.githubusercontent.com/u/101939228?v=4" alt="profile_picture">
+        <link rel="stylesheet" type="text/css" href="style_i.css">
+    
+        <link href="https://fonts.googleapis.com/css2?family=Ubuntu&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=MuseoModerno:wght@500&display=swap" rel="stylesheet">
+    </head>
+
+    <body>
+
+        <!-- Header -->
+        <header>
+            <div id="headcontainer">
+
+                <div id="pagenav">
+                    <ul>
+                        
+                    </ul>
+                </div>
+                
+                <nav id="mainnav" width="auto">
+                    <img onclick="toggleMenu()" class="fa-bars" src="img/menu.png" width="25px" height="25px" alt="Navigation">
+                    <ul id="dropdown" class="dropdown">
+                        <li><a href="/index.html"><div class="navcontainer">Startseite</div></a></li>
+                        <li><a href="https://discord.gg/PXRZm3XQDb"><div class="navcontainer">Discord</div></a></li>
+                        <li><a href="https://github.com/programmerlp"><div class="navcontainer">GitHub</div></a></li>
+                    </ul>
+                </nav>
+
+            </div>
+        </header>
+
+        <!--Modal-->
+        <div id="MainModal" class="modal">
+
+            <div class="modal-content">
+                <div class="modal-header">
+                  <span class="close">&times;</span>
+                  <h2 id="headerh2">Modal Header</h2>
+                </div>
+                <div class="modal-body">
+                    <img id="mimg" style="display: none;">
+                  <p id="mainp">Some text in the Modal Body</p>
+                </div>
+                <!--<div class="modal-footer">
+                  <h3>Modal Footer</h3>
+                </div>-->
+              </div>
+          
+          </div>
+
+        <!--projects-->
+        <section id="projects">
+            <hr style="margin-bottom: 100px;">
+            <h2 style=" font-weight: 900;">Download Hub</h2>
+
+            <div style="float: left; height: fit-content;">
+                <div id="list">
+                    <ul>
+                        <!--<li><a href="#home">
+                            <div class="projectelement">
+                                <img src="img/Launcher.png" alt="test">
+                                <p>
+                                    Is an app with which you can start all apps from me, also it offers special features. Available for Windows.
+                                </p>
+                                <label>PLP Launcher</label>
+                            </div>
+                        </a></li>
+                        <li><a href="#home">
+                            <div class="projectelement">
+                                <img src="img/Snake.png" alt="test">
+                                <p>It is the simple game Snake, but it has features that no other Snake games have. available for all Java platforms.</p>
+                                <label>Snake</label>
+                            </div>
+                        </a></li>
+                        <li onclick="openmodal('Finanz App','Is an app where you can enter your finances to have an overview of them. still IN DEVELOPMENT')"><a>
+                            <div class="projectelement">
+                                <img src="img/FinanceApp.png" alt="test">
+                                <p>Is an app where you can enter your finances to have an overview of them. still IN DEVELOPMENT</p>
+                                <label>Finanz App</label>
+                            </div>
+                        </a></li>
+                        <li><a href="#home">
+                            <div class="projectelement">
+                                <img src="img/KsvbR.png" alt="test">
+                                <p>Is an app where you can enter your fuel expenses to have an overview of them. available for Windows.</p>
+                                <label>Verbrauchs Rechner</label>
+                            </div>
+                        </a></li>-->
+                        <li><a href="/DownloadPCInfo.html">
+                            <div class="projectelement">
+                                <img src="img/PCInfo.jpg" alt="test">
+                                <p>Is an app that lists the system information of your PC. Available for Windows</p>
+                                <label>PC-Info</label>
+                            </div>
+                        </a></li>
+                        <!--<li><a href="#home">
+                            <div class="projectelement">
+                                <img src="img/ALZWE.png" alt="test">
+                                <p>Is an app which is available for Windows and Android that generates lottery numbers.</p>
+                                <label>AutoLottoZahlen</label>
+                            </div>
+                        </a></li>
+                        <li onclick="openmodal('Raspberry as a Server','Use a Raspberry Pi to run a server on it. It doesn\'t matter, which server it is.')"><a>
+                            <div class="projectelement">
+                                <img src="img/Console.png" alt="test">
+                                <p>Use a Raspberry Pi to run a server on it. It doesn't matter, which server it is.</p>
+                                <label>Raspberry Pi as a Server</label>
+                            </div>
+                        </a></li>
+                        <li onclick="openmodal('programmerlp.net','You are already on this website, but you can also take a look around here.')"><a>
+                            <div class="projectelement">
+                                <img src="img/Website.png" alt="test">
+                                <p>You are already on this website, but you can also take a look around here.</p>
+                                <label>Websites</label>
+                            </div>
+                        </a></li>-->
+                    </ul>
+                </div>
+            </div>
+            
+            <button class="btn1"></button>
+            
+        </section>
+
+        <!-- footer -->
+        <footer>
+            <p><a href="#home">&copy; ProgrammerLP</a></p>
+        </footer>
+        
+        <script src="Main.js"></script>
+    </body>
+</html>
