@@ -92,7 +92,7 @@ header #pagenav {
     padding: 0;
     margin: 5px 10px 0 0px;
     float: right;
-    width: 400px;
+    width: 40%;
     vertical-align: top;
 }
 
@@ -129,7 +129,7 @@ header #pagenav ul li:hover {
 header nav ul {
     height: 0;
     overflow: hidden;
-    margin: 10px 0;
+    margin: 0;
     padding: 0;
     width: 100%;
     float: left;
@@ -141,7 +141,7 @@ header nav ul.show {
     
 header nav ul li {
     width: 20%;
-    margin: 20px auto 0 10px;
+    margin: 10px auto 0 10px;
     font-size: 11px;
     border: 1px solid #dddddd;
     background-color: rgb(64, 64, 64);
@@ -676,6 +676,7 @@ footer p a{
     header #pagenav {
         margin: 0 10px 13px 0;
         height: auto;
+        width: 79%;
     }
 
     header #pagenav ul li {
