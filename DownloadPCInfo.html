@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+	    <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Downloads | PLP</title>
+    
+        <link rel="icon" type="image/png" href="https://avatars.githubusercontent.com/u/101939228?v=4" alt="profile_picture">
+        <link rel="stylesheet" type="text/css" href="downloadPCInfo.css">
+    
+        <link href="https://fonts.googleapis.com/css2?family=Ubuntu&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=MuseoModerno:wght@500&display=swap" rel="stylesheet">
+    </head>
+
+    <body>
+        <!--header-->
+        <header>
+            <div id="headcontainer">
+
+                <div id="pagenav">
+                    <ul>
+                        <li><a href="#contact">Feedback</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#home">Download</a></li>
+                    </ul>
+                </div>
+                
+                <nav id="mainnav" width="auto">
+                    <img onclick="toggleMenu()" class="fa-bars" src="img/menu.png" width="25px" height="25px" alt="Navigation">
+                    <ul id="dropdown" class="dropdown">
+                        <li class="mobile"><a href="#contact"><div class="navcontainer">Feedback</div></a></li>
+                        <li class="mobile"><a href="#about"><div class="navcontainer">About</div></a></li>
+                        <li class="mobile"><a href="#home"><div class="navcontainer">Download</div></a></li>
+                        <li><a href="/index.html"><div class="navcontainer">Startseite</div></a></li>
+                        <li><a href="https://discord.gg/PXRZm3XQDb"><div class="navcontainer">Discord</div></a></li>
+                        <li><a href="https://github.com/programmerlp"><div class="navcontainer">GitHub</div></a></li>
+                    </ul>
+                </nav>
+
+            </div>
+        </header>
+        
+        <!--Modal-->
+        <div id="MainModal" class="modal">
+
+            <div class="modal-content">
+                <div class="modal-header">
+                  <span class="close">&times;</span>
+                  <h2 id="headerh2">Modal Header</h2>
+                </div>
+                <div class="modal-body">
+                    <img id="mimg" style="display: none;">
+                  <p id="mainp">Some text in the Modal Body</p>
+                </div>
+                <!--<div class="modal-footer">
+                  <h3>Modal Footer</h3>
+                </div>-->
+              </div>
+          
+          </div>
+
+          <!--Content-->
+
+          <section id="home" style="margin-top: 0;">
+
+            <hr>
+            
+            <h1>PC Info</h1>
+              <div id="maind">
+                  <div id="img_d">
+                    <img class="main_img" src="img/PCInfo.jpg" alt="pic_0" style="border: 1px solid white;" >
+                  </div>
+                  <div id="textd">
+                    <div id="text_h">
+                        <h2>What is PC-Info?</h2>
+                    </div>
+                    <div id="text_u">
+                        <p>
+                            PLP PC-Info is an official, free open-source, modernly designed and easy to use program from ProgrammerLP, 
+                            so you can find out what components are installed in your PC and how your PC is utilized.
+                        </p>
+                    </div>
+                    <div id="dl">
+                        <a href="Downloads/PCInfo.exe"><button type="button" class="dl_btn">Download v1.1.1</button></a>
+                        <label>Windows 7 oder höher</label>
+                    </div>
+                </div>
+                  <hr style="height: 0; margin: 20px 0 0 0;">
+              </div>
+          </section>
+
+          <section id="about">
+              <hr style="height: 0;">
+              <h1>Why PC Info?</h1>
+
+                <div id="one">
+                    <div id="I_I">
+                        <div id="textd">
+                            <div id="text_h">
+                                <h2>Many useful information</h2>
+                            </div>
+                            <div id="text_u">
+                                <p>
+                                    PC-Info provides you with a variety of useful information about your PC, including 
+                                    system information, such as operating system, ram, processor, graphics card and more. 
+                                    Try it for yourself. 
+                                </p>
+                            </div>
+                        </div>
+                          <div id="img_d">
+                            <img class="a_img" src="img/PCInfo.jpg" alt="pic_1" >
+                          </div>
+                          <hr style="height: 0;">
+                    </div>
+                    <div id="I_II">
+                        <div id="textd_I">
+                            <div id="text_h">
+                                <h2>View your Drives</h2>
+                            </div>
+                            <div id="text_u">
+                                <p>
+                                    PC-Info offers you besides the system information also the possibility to give 
+                                    you information about your drives, including the memory usage, the total capacity 
+                                    and more. Try it yourself.
+                                </p>
+                            </div>
+                        </div>
+                          <div id="img_d_I">
+                            <img class="a_img" src="img/PC_Info_Drives.png" alt="pic_2" >
+                          </div>
+                          <hr style="height: 0; margin-top: 10px;">
+                    </div>
+                    <div id="I_III">
+                        <div id="textd">
+                            <div id="text_h">
+                                <h2>Beautiful Darkmode</h2>
+                            </div>
+                            <div id="text_u">
+                                <p>
+                                    PC-Info offers you a very good darkmode, which is activated by default, moreover 
+                                    the whole UI adapts to the darkmode, so that you are not limited in its use. 
+                                    We recommend you to test the dark mode in any case. 
+                                </p>
+                            </div>
+                        </div>
+                          <div id="img_d">
+                            <img class="a_img" src="img/PCInfo.jpg" alt="pic_3" >
+                          </div>
+                          <hr style="height: 0;">
+                    </div>
+                    <hr style="height: 0;">
+                </div>
+                <hr style="height: 0; margin: 20px 0 0 0;">
+                <a href="Downloads/PCInfo.exe"><button type="button" class="dl_btn" style="margin-bottom: 40px;">Download v1.1.1</button></a>
+          </section>
+
+          <!--contact-->
+        <section id="contact">
+            <h3>Bugs and suggestions</h3> <hr>
+            
+            <div id="contactcontainer">
+                <h4>Report Bugs and make suggestions!</h4>
+                <div id="cards">
+                    <div id="dc">
+                        <label class="label_c">Join my Discord Server</label>
+                        <a href="https://discord.gg/PXRZm3XQDb" target="_blank"><img class="dcimg" src="https://discord.com/api/guilds/747857037685162015/widget.png?style=banner3" alt="Discord Invite"></a>
+                    </div>
+                    <div class="border"></div>
+                    <div id="github">
+                        <label class="label_c">Follow me on GitHub</label>
+                        <a href="https://github.com/programmerlp" target="_blank">
+                            <div id="ghcard">
+                                <div id="ghimg">
+                                    <img src="https://avatars.githubusercontent.com/u/101939228?v=4" alt="profile_picture">
+                                </div>
+                                <div id="ghstats">
+                                    <div id="statscontent">
+                                        <h4>ProgrammerLP</h4>
+                                        <img alt="GitHub followers" src="https://img.shields.io/github/followers/ProgrammerLP?style=for-the-badge">
+                                        <img alt="GitHub User's stars" src="https://img.shields.io/github/stars/ProgrammerLP?style=for-the-badge">
+                                    </div>
+                                </div>
+                                <div id="ghfooter">
+                                    <div id="ghsymbol">
+                                        <img src="img/github.png" alt="github Logo">
+                                        <label>GitHub</label>
+                                    </div>
+                                    <div id="ghlabel">
+                                        <p>follow now ></p>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <hr style="height: 0;">
+                </div>
+
+                    <a href="mailto:developer.programmerlp@gmx.net" onclick="openmodal('Email use','This email adress is only for reporting Bugs and share suggestions with me! Everything else is ignored!')">or via e-mail</a>
+
+                <hr style="height: 0; margin: 20px 0 0 0;">
+            </div>
+        </section>
+
+          <!-- Footer-->
+        <footer>
+            <p><a href="https://discord.gg/PXRZm3XQDb" target="_blank">&copy; ProgrammerLP</a></p>
+        </footer>
+
+        <script src="Main.js" ></script>
+
+    </body>
+</html>
